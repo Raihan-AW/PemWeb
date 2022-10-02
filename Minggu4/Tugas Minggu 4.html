@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form Data Mahasiswa FIK</title>
+</head>
+
+<body>
+	<h1 align="center">Formulir Data Mahasiswa FIK</h1>
+	<form name="DataMHS" method="post" action="submit.php">
+	<table>
+		<tr>
+			<td>Nama</td>
+			<td><input type="text" name="nama" required></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>
+				<input type="radio" id="lk" name="jk" value="L">
+				<label for="lk">Laki-Laki</label><br>
+				<input type="radio" id="pm" name="jk" value="P">
+				<label for="pm">Perempuan</label></br>
+			</td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir</td>
+			<td><input type="date" name="tgl" required></td>
+		</tr>
+		<tr>
+			<td>NIM</td>
+			<td><input type="text" name="nim" required></td>
+		</tr>
+		<tr>
+			<td>Dosen Wali</td>
+			<td><input type="text" name="wali" required></td>
+		</tr>
+		<tr>
+			<td>Kelompok</td>
+			<td><input type="number" name="kelompok" required></td>
+		<tr>
+			<td>Prodi</td>
+			<td>
+				<input type="radio" id="ti" name="prodi" value="STI">
+				<label for="ti">S1 - Teknik Informatika</label><br>
+				<input type="radio" id="si" name="prodi" value="SSI">
+				<label for="si">S1 - Sistem Informasi</label><br>
+				<input type="radio" id="dkv" name="prodi" value="DKV">
+				<label for="dkv">S1 - Desain Kominikasi Visual</label><br>
+				<input type="radio" id="ilkom" name="prodi" value="IlKom">
+				<label for="ilkom">S1 - Ilmu Komunikasi</label><br>
+				<input type="radio" id="dti" name="prodi" value="DTI">
+				<label for="dti">D3 - Teknik Informatika</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td>Ormawa yang diikuti</td>
+			<td>
+			<input type="checkbox" name="ormawa1" value="dpm">
+			<label for="dpm">DPM FIK</label><br>
+			<input type="checkbox" name="ormawa2" value="bem">
+			<label for="dpm">BEM FIK</label><br>
+			<input type="checkbox" name="ormawa3" value="hmti">
+			<label for="dpm">HMTI</label><br>
+			</td>
+		</tr>
+		<tr>
+			<td>Foto Mahasiswa</td>
+			<td><input type="file" name="foto" required></td>
+		</tr>
+		<tr>
+			<td>KRS Mahasiswa</td>
+			<td><input type="file" name="krs" required></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" value="Submit"></td>
+		</tr>
+	</table>
+	</form>
+</body>	
+
+</html>
