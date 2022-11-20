@@ -1,0 +1,24 @@
+.tengah{ 
+ margin: 10px auto; 
+ width: 1150px;
+ text-align: center;
+} 
+  
+.sq1{ 
+ background: red; 
+ padding: 20px; 
+ float: left; 
+ margin: 150px; 
+ width: 150px; 
+ height: 150px;  
+} 
+  
+.sq2{ 
+ background: limegreen; 
+ padding: 20px; 
+ float: left; 
+ margin: 150px; 
+ width: 150px; 
+ height: 150px; 
+ transform: scale(2,2);
+}

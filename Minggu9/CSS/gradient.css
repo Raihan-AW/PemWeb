@@ -1,0 +1,30 @@
+.tengah{ 
+ margin: 10px auto; 
+ width: 1150px; 
+} 
+  
+ 
+ 
+.sq{ 
+ background: blue; 
+ width: 500px; 
+ float: left; 
+ height: 250px; 
+ margin: 30px; 
+} 
+  
+.gr1 { 
+ background: linear-gradient(red, yellow);
+} 
+  
+.gr2 { 
+ background: linear-gradient(to right, skyblue , blue, darkslateblue );
+} 
+  
+.gr3 {   
+       background: radial-gradient(black, darkgray , lightgray);
+} 
+  
+.gr4 { 
+       background: radial-gradient(circle, #03073a, #132aa9, #60469a);
+}

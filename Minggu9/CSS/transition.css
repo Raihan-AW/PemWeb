@@ -1,0 +1,28 @@
+div{ 
+ margin: 10px; 
+} 
+  
+.sq{ 
+ background: red; 
+ width: 100px; 
+ height: 100px; 
+ transition: width 1s; 
+ -webkit-transition: width 1s; 
+} 
+  
+.sq:hover{ 
+ width: 300px; 
+} 
+  
+.sq2{ 
+ background: limegreen; 
+ width: 100px; 
+ height: 100px; 
+ transition: width 1s, height 2s; 
+ -webkit-transition: width 1s, height 2s; 
+} 
+  
+.sq2:hover{ 
+ width: 300px; 
+ height: 300px; 
+}

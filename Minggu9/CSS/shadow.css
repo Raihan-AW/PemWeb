@@ -1,0 +1,30 @@
+.tengah{ 
+ margin: 10px auto; 
+ width: 1150px; 
+} 
+
+.t1{ 
+ text-shadow: 10px 8px 5px #232323;  
+} 
+
+.t2{ 
+ text-shadow: 0px 0px 20px #232323;   
+} 
+
+.sq1{ 
+ background: white; 
+ width: 300px; 
+ height: 300px; 
+ margin: 20px; 
+ float: left; 
+ box-shadow: 20px 20px 40px 10px red; 
+} 
+  
+.sq2{ 
+ background: white; 
+ width: 300px;  
+ margin: 20px; 
+ float: left; 
+ height: 300px; 
+ box-shadow: 0px 0px 10px 10px #333333; 
+}

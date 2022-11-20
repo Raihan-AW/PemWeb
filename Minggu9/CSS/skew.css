@@ -1,0 +1,54 @@
+.tengah{ 
+ margin: 10px auto; 
+ width: 1150px;
+ text-align: center;
+} 
+  
+.sq1{ 
+ background: red; 
+ padding: 20px; 
+ float: left; 
+ margin: 50px; 
+ width: 150px; 
+ height: 150px;  
+} 
+  
+.sq2{ 
+ background: limegreen; 
+ padding: 20px; 
+ float: left; 
+ margin: 50px; 
+ width: 150px; 
+ height: 150px; 
+ transform: skew(20deg); 
+} 
+  
+.sq3{ 
+ background: aquamarine; 
+ padding: 20px; 
+ float: left; 
+ margin: 50px; 
+ width: 150px; 
+ height: 150px; 
+ transform: skew(30deg,20deg);
+} 
+  
+.sq4{ 
+ background: lightblue; 
+ padding: 20px; 
+ float: left; 
+ margin: 50px; 
+ width: 150px; 
+ height: 150px; 
+ transform: skewY(20deg);
+} 
+  
+.sq5{ 
+ background: lightcyan; 
+ padding: 20px; 
+ float: left; 
+ margin: 50px; 
+ width: 150px; 
+ height: 150px; 
+ transform: skewX(20deg); 
+}

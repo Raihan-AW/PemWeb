@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+
+.tengah{ 
+ margin: 10px auto; 
+ width: 1150px; 
+}
+
+.sq{ 
+ background: grey; 
+ padding: 20px; 
+ width: 200px; 
+ float: left; 
+ margin: 20px; 
+ height: 200px; 
+} 
+  
+.sq1{ 
+ border-radius: 10px 10px 10px 10px; 
+} 
+  
+  
+.sq2{ 
+ border-radius: 40px 20px 60px 90px; 
+ 
+3 
+} 
+  
+.sq3{ 
+ border-radius: 2px 140px 20px 60px; 
+} 
+  
+.sq3{ 
+ border-radius: 20px 10px 80px 10px; 
+} 
+  
+.sq4{ 
+ border-radius: 0px 50px 0px 50px; 
+} 
+  
+.sq5{ 
+ border-radius: 0px 0px 0px 0px; 
+} 
+  
+.sq6{ 
+ border-radius: 100%; 
+} 
+  
+.sq7{ 
+ border-radius: 40px 10px; 
+} 
+  
+.sq8{ 
+ border-radius: 10px 10px 50% 50%; 
+} 
