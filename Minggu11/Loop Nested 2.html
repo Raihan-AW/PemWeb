@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loop Nested 2</title>
+</head>
+<body>
+	<script>
+	var rpt = confirm("apakah anda ingin mengulang?"); 
+	var x = 0; 
+ 
+	while (rpt) { 
+    x++; 
+    var bintang = "*".repeat(x) + "<br>"; 
+    document.write(x + ": " + bintang); 
+    rpt = confirm("apakah anda ingin mengulang?"); 
+	}
+	</script>
+</body>
+</html>

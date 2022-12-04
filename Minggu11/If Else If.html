@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Percabangan IF/ELSE/IF</title>
+</head>
+<body>
+	<script>
+		var n = prompt("Inputkan Nilai Akhir:");
+		var nH = "";
+
+		if(n>=90) nH = "A"
+			else if(n>=80) nH = "AB"
+			else if(n>=70) nH = "B"
+			else if(n>=60) nH = "BC"
+			else if(n>=50) nH = "C"
+			else if(n>=40) nH = "D"
+			else if(n>=30) nH = "E"
+				else nH = "F";
+
+			document.write(`<p>Nilai Huruf Anda adalah: ${nH}</p>`);
+	</script>
+</body>
+</html>
