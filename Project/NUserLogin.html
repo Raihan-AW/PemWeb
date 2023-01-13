@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="eng">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Raihan A.W.">
+	<meta name="keywords" content="Lamaran,Kerja,Normal,KerjaanKu,Login">
+	<meta name="description" content="Web untuk mencari dan mengupload lamaran pekerjaan">
+	<title>Login</title>
+	<style>
+		h1 {
+			text-align: center;
+			font-family: sans-serif;
+			padding: 20px;
+			margin: 0px;
+		}
+		
+		h2 {
+			text-align: center;
+		}
+		
+		.navBar {
+			overflow: hidden;
+			background-color: #333;
+			opacity: 0.5;
+		}
+		
+		.navBar a {
+			float: left;
+			font-size:20px ;
+			color: white;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+		}
+		
+		.drpMenu {
+			float: left ;
+			overflow:hidden ;
+		}
+		
+		.drpMenu .drpBtn {
+			font-size: 20px;
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 20px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+		
+		.navBar a:hover,.drpMenu:hover .drpBtn {
+			background-color: steelblue;
+		}
+
+		.drpList {
+			display: none;
+  			position: absolute;
+  			background-color: #f9f9f9;
+  			min-width: 150px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
+		
+		.drpList a {
+			float: none;
+ 			color: black;
+  			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+  			text-align: left;
+		}
+
+		.drpList a:hover {
+			background-color: #9b9b9c;
+		}
+
+		.drpMenu:hover .drpList{
+			display: block;
+		}
+
+		.p1 {
+			text-align: center;
+			font-family: arial;
+			font-size: 36px;
+		}
+
+		form {
+			text-align: center;
+		}
+
+		body {
+			background-image: url(work.png);
+			background-size: 1920px 1080px;
+		}
+		
+		div.par {
+			text-align: center;
+			font-size: 20px;
+		}
+
+		footer {
+			text-align: center;
+			margin: 300px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>KerjaanKu</h1>
+	</header>
+	<nav>
+		<div class="navBar">
+			<a href="NUserLogin.html">Home</a>
+			<a href="NewOnWeb.html">What's New</a>
+			<div class="drpMenu">
+				<button class="drpBtn">Login As
+					<i class="caretDown"></i>
+				</button>
+				<div class="drpList">
+					<a href="NUserLogin.html">Pelamar</a>
+					<a href="PUserLogin.html">Perusahaan</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<br/>
+	<article>
+		<p class="p1">Login User</p>
+		<br/>
+		<div id="error" class="par"></div>
+		<br/>
+		<br/>
+		<form id="loginInfo" method="POST" action="javascript:void(0)" onsubmit="logInCheck()">
+		<input type="text" placeholder="Username" name="pUsername" required> 
+		<br/>
+		<br/>
+		<input type="password" placeholder="Password" name="pPassword" required> 
+		<br/>
+		<br/>
+		<input type="submit" name="Submit" value="Log In">
+		</form>
+	</article>
+	<br/>
+	<footer>Copyright &copy; 2022 Raihan A.W.</footer>
+<script>
+function logInCheck() {
+	var uName = document.getElementById("loginInfo").elements[0].value;
+	var uPass = document.getElementById("loginInfo").elements[1].value;
+
+	if (uName == "demoTest" && uPass == "Demotest123"){
+		document.getElementById('error').innerHTML = '<a href="NUHomepage.html">Masuk lewat sini</a>';
+	}else{
+		document.getElementById('error').innerHTML = "Password atau/dan username anda salah!";
+	}
+}
+</script>
+</body>
+</html>
+
+

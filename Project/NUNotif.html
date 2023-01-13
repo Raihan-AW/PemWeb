@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta lang="eng">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Raihan A.W.">
+	<meta name="keywords" content="Lamaran,Kerja,Notification,Message,Normal,KerjaanKU">
+	<meta name="description" content="Web untuk mencari dan mengupload lamaran pekerjaan">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Message & Notification</title>
+</head>
+<style>
+	h1 {
+			text-align: center;
+			font-family: sans-serif;
+			color: white;
+			padding: 20px;
+			margin: 0px;
+			background-color: #000aa6 ;
+			opacity: 0.65;
+		}
+
+
+	.navBar {
+			overflow: hidden;
+			background-color: #000aa6;
+			opacity: 0.65;
+		}
+		
+		.navBar a {
+			float: left;
+			font-size:20px ;
+			color: white;
+			text-align: center;
+			padding: 14px 20px;
+			text-decoration: none;
+		}
+
+		.navBar a.righty {
+			float: right;
+		}
+		
+		.drpMenu {
+			float: left ;
+			overflow:hidden ;
+		}
+		
+		.drpMenu .drpBtn {
+			font-size: 20px;
+			border: none;
+			outline: none;
+			color: white;
+			padding: 14px 20px;
+			background-color: inherit;
+			font-family: inherit;
+			margin: 0;
+		}
+		
+		.navBar a:hover,.drpMenu:hover .drpBtn {
+			background-color: #00066a;
+		}
+
+		.drpList {
+			display: none;
+  			position: absolute;
+  			background-color: #f9f9f9;
+  			min-width: 150px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+		}
+		
+		.drpList a {
+			float: none;
+ 			color: black;
+  			padding: 12px 16px;
+  			text-decoration: none;
+  			display: block;
+  			text-align: left;
+		}
+
+		.drpList a:hover {
+			background-color: #9b9b9c;
+		}
+
+		.drpMenu:hover .drpList{
+			display: block;
+		}
+
+		.nbox1 {
+			border: solid black;
+			border-width: 10px;
+			border-radius: 15px 15px 15px 15px;
+ 			padding: 20px; 
+ 			width: 200px;  
+ 			margin: 20px;
+ 			margin-left: 20px;
+ 			border-spacing: 20px;
+ 			height: 200px;
+ 			width:  400px;
+		}
+		
+		.nbox2 {
+			border: solid black;
+			border-width: 10px;
+			border-radius: 15px 15px 15px 15px;
+ 			padding: 20px; 
+ 			width: 200px;  
+ 			margin: 20px; 
+ 			height: 200px;
+ 			width:  400px;
+		}
+
+		.searchs {
+			float: right;
+			border: solid black;
+			border-width: 5px;
+			border-radius: 15px 15px 15px 15px;
+			padding: 5px;
+		}
+		footer {
+			text-align: center;
+			margin: 319px;
+		}
+</style>
+<body>
+<header>
+	<h1>KerjaanKU</h1>
+</header>
+<nav>
+	<div class="navBar">
+		<a href="NUHomepage.html">Home</a>
+		<a href="NUReply.html"><i class="fa fa-fw fa-pencil"></i></a>
+		<a href="NUserLogin.html" class="righty">Log out</a>
+		<a href="NUNotif.html" class="righty"><i class="fa fa-fw fa-envelope"></i></a>
+	</div>
+</nav>
+<article>
+	<div class="nbox1">
+		<p>Jawaban dari: PT.Makmur Jaya</p>
+		<p>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		</p>
+		<a href="nContoh.html">Detail</a>
+	</div>
+	<div class="nbox2">
+		<p>Jawaban dari: PT.Sukses Semua</p>
+		<p>
+		Maaf, tetapi untuk jabatan Manager yang anda lamar... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		.................... <br>
+		</p>
+		<a href="nContoh2.html">Detail</a>
+	</div>
+</article>
+<footer>Copyright &copy; 2022 Raihan A.W.</footer>
+<script>
+</script>
+</body>
+</html>
